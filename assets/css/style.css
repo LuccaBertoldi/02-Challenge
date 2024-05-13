@@ -8,10 +8,11 @@ body {
     background-color: #d9dcd6;
 }
 
+/*made the background darker to be easier to read*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #13374a;
     color: #ffffff;
 }
 
@@ -24,12 +25,13 @@ body {
     color: #d9dcd6;
 }
 
+/*made font bigger*/
 .header .list{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size:23px;
 }
 
 .header .list ul li {
@@ -43,9 +45,7 @@ body {
     text-decoration: none;
 }
 
-p {
-    font-size: 18px;
-}
+
 
 .hero {
     height: 800px;
@@ -54,6 +54,51 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*changed position from all this ids to here because they were after the benefits*/
+/*changed background color to be easier to read*/
+/*changed a bit the height to match with the benefits square*/
+#search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 316PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #035181;
+    color: #ffffff;
+}
+
+/*changed a bit the height to match with the benefits square*/
+#online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 316px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #035181;
+    color: #ffffff;
+}
+
+/*changed a bit the height to match with the benefits square*/
+#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 316px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #035181;
+    color: #ffffff;
+}
+
+
+
+/*created this to change the max height from all the content img*/
+.content img {
+    max-height: 200px;
 }
 
 .float-left {
@@ -66,10 +111,15 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/*created this to edit all the h2 text from content*/
+.content h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*made the letters bigger for visual disabilities*/
+.content p {
+    font-size: 25px;
 }
 
 .benefits {
@@ -80,7 +130,12 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #1f6890;
+}
+
+/*added a benefits p to make different changes than p from content*/
+.benefits p {
+    font-size: 20px;
 }
 
 .benefit-lead {
@@ -94,7 +149,7 @@ p {
 }
 
 .benefit-cost {
-    margin-bottom: 32px;
+    margin-bottom: 32px ;
     color: #ffffff;
 }
 
@@ -131,59 +186,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .footer {
     padding: 30px;
