@@ -56,7 +56,7 @@ body {
     background-position: center;
 }
 
-.content {
+#content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -97,7 +97,7 @@ body {
 
 
 /*created this to change the max height from all the content img*/
-.content img {
+#content img {
     max-height: 200px;
 }
 
@@ -112,17 +112,17 @@ body {
 }
 
 /*created this to edit all the h2 text from content*/
-.content h2{
+#content h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /*made the letters bigger for visual disabilities*/
-.content p {
+#content p {
     font-size: 25px;
 }
 
-.benefits {
+#benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -131,11 +131,6 @@ body {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #1f6890;
-}
-
-/*added a benefits p to make different changes than p from content*/
-.benefits p {
-    font-size: 20px;
 }
 
 .benefit-lead {
@@ -153,40 +148,23 @@ body {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+/*created this to edit all the h3 imgs from benefits at once*/
+#benefits h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*created this to edit all the imgs from benefits at once*/
+#benefits img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/*added a benefits p to make different changes than p from content*/
+#benefits p {
+    font-size: 20px;
 }
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
 
 .footer {
     padding: 30px;
